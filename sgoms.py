@@ -10,7 +10,7 @@ class Sgoms:
                 return False # Stop listener - or listener.stop??
             if key.char == 'w':
                 print(5555555555555555555)
-                self.step()
+                self.step() # this does not work!!!!!!
         except AttributeError:
             print('{0} has no function'.format(key))
 
